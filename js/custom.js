@@ -102,7 +102,20 @@ $(document).ready(function(){
 			]
 		});
 	}
-	
+
+	// scroll to top 
+	var btn = $('#backToTop');
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 300) {
+			btn.addClass('show');
+		} else {
+			btn.removeClass('show');
+		}
+	});
+	btn.on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({scrollTop:0}, '1000');
+	});	
 });
 $(window).on('resize', function() {
 	if($('.six-item-slider').length > 0) {

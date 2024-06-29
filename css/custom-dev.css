@@ -97,6 +97,7 @@
   --white:#fff;
   --green-bg:#233F3E;
   --green-light-bg:#4EA7A5;
+  --green-two: #396B69;
   --heading-color:#323232;
   --heading-color-gray:#706B66;
   --text-color:#000;
@@ -232,15 +233,6 @@ textarea:-ms-input-placeholder {color: var(--search-placeholder-color);}
 input:-moz-placeholder,
 textarea:-moz-placeholder {color: var(--search-placeholder-color);}
 
-.btn-custom{background-color: var(--pink-light-bg);color: var(--black);text-transform: uppercase;font-size: 16px;padding: 9px 29px;border:1px solid var(--pink-light-bg);box-shadow: none;outline: none;line-height: 1.57;transition: 0.3s;font-family: var(--primary-font);letter-spacing: 0.040em;display: inline-block;}
-.btn-custom:hover{background-color:var(--black);color: var(--white);}
-
-.btn-custom.btn-black{background-color: var(--black);border-color: var(--black);color: var(--white);}
-.btn-custom.btn-black:hover{background-color: var(--pink-light-bg);border-color: var(--pink-light-bg);color: var(--white);}
-
-.btn-custom.btn-white{background-color: var(--white);border-color: var(--white);color: var(--black);}
-.btn-custom.btn-white:hover{background-color: var(--black);border-color: var(--black);color: var(--white);}
-
 
 .slick-arrow {position: absolute;top: 50%;transform: translateY(-50%);z-index: 1;cursor: pointer;background-color: var(--heading-color);border-radius: 100%;}
 .slick-arrow span {background-color: var(--green);width: 36px;height: 36px;display: block;border-radius: 100%;color: var(--white);text-align: center;line-height: 36px;font-size: 20px;}
@@ -250,8 +242,8 @@ textarea:-moz-placeholder {color: var(--search-placeholder-color);}
 
 .sec-heading h2{color: var(--black);font-family: var(--primary-font);font-size: 36px;font-style: normal;font-weight: 900;line-height: 1.2; text-transform: uppercase;letter-spacing: 0.9px;}
 .sec-heading p{color: var(--black);font-size: 20.435px;font-style: normal;font-weight: 400;line-height: 1.29;margin-top: 30px;}
-.sec-heading h4{color: var(--black);font-family: var(--primary-font);font-size: 20.435px;font-style: normal;font-weight: 400;line-height: 1.29;    margin-top: 30px;}
-.btn-see-more{color:#396B69;font-weight: 900;    text-transform: uppercase;
+.sec-heading h4{color: var(--black);font-family: var(--primary-font);font-size: 20.435px;font-style: normal;font-weight: 400;line-height: 1.29; margin-top: 30px;}
+.btn-see-more{color:var(--green-two);font-weight: 900;    text-transform: uppercase;
   text-decoration: underline;}
 .btn-see-more::after {
     content: " →";
@@ -266,28 +258,28 @@ textarea:-moz-placeholder {color: var(--search-placeholder-color);}
 .logo {display: block;justify-self: center;margin: 16px 0;}
 .logo a img{height: 72px;width: auto;}
 .header-search {margin: 0 auto;display: flex;justify-content: flex-end;}
-.header_search{display: flex;flex: auto;flex-wrap: nowrap;max-width: 100%;width: 230px;background-color: #fff;}
-.header_search input{border: none;background-color: #fff;border-radius: 0;padding: 0 4px;flex-grow: 1;margin-left: 0;margin-right: 0;
-min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
-.header_search_button{padding: 0;background: rgba(0, 0, 0, 0);color: #000;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;border:0;}
+.header_search{display: flex;flex: auto;flex-wrap: nowrap;max-width: 100%;width: 230px;background-color: var(--white);}
+.header_search input{border: none;background-color: var(--white);border-radius: 0;padding: 0 4px;flex-grow: 1;margin-left: 0;margin-right: 0;
+min-width: 3rem;color:var(--black);font-size: 16px;line-height: 1.4;width: 100%;}
+.header_search_button{padding: 0;background: rgba(0, 0, 0, 0);color: var(--black);width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;border:0;}
 .nav-menu {justify-self: flex-start;align-self: flex-end;width: 100%;}
 .nav-menu ul {clear: both;line-height: 1;margin: 0;padding: 0;width: 100%;}
 .nav-menu .menu-item a {border: none;color: inherit;display: block;font-size: 16px;position: relative;padding: 16px;text-decoration: none;font-weight: 600;}
-.nav-menu .menu>.menu-item>a {font-size: 0.875rem;font-weight: 900;letter-spacing: .05em;text-transform: uppercase;color:#fff;font-weight: bold;}
+.nav-menu .menu>.menu-item>a {font-size: 0.875rem;font-weight: 900;letter-spacing: .05em;text-transform: uppercase;color:var(--white);font-weight: bold;}
 .nav-menu ul {clear: both;line-height: 1;margin: 0;padding: 0;width: 100%;}
 .nav-menu .menu-item.menu-item-has-children>a {padding-right: calc(16px + 6px);}
 .mobile-menu-icon,
-.mobile-search-icon {background-color: transparent;border:0;font-size: 24px;color:#fff;padding: 0;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;min-width: 44px;}
+.mobile-search-icon {background-color: transparent;border:0;font-size: 24px;color:var(--white);padding: 0;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;min-width: 44px;}
 
 /* category section  */
-.category{background-color: #396B69;padding: 40px 0;}
+.category{background-color: var(--green-two);padding: 40px 0;}
 .category-list{margin-left: -8px;margin-right: -8px;}
 .category-list .item{padding: 8px;}
 .category-list .item .image-box{position: relative;overflow: hidden;display: block;}
 .category-list .item .image-box img{width: 100%;aspect-ratio: 100/100;object-fit: cover;object-position: center center;transition: 0.5s;transform-origin: center center;}
-.category-list .item .image-box span {position: absolute;top: 16px;left: 0;z-index: 2;background: #fff;display: inline-block;padding: 8px 12px;line-height: 1.4;font-size: 12px;font-weight: 900;letter-spacing: 0.5px;text-transform: uppercase;color:#233F3E;}
+.category-list .item .image-box span {position: absolute;top: 16px;left: 0;z-index: 2;background: var(--white);display: inline-block;padding: 8px 12px;line-height: 1.4;font-size: 12px;font-weight: 900;letter-spacing: 0.5px;text-transform: uppercase;color:var(--green-bg);}
 .category-list .item .image-box:hover img{scale:1.1}
-.category-list .item .image-box:hover span{background-color: var(--green-bg);color:#fff;}
+.category-list .item .image-box:hover span{background-color: var(--green-bg);color:var(--white);}
 
 /* newest-recipes section */
 .newest-recipes{padding: 40px 0;background: #EDF6F6 url('../images/pattern-primary.png');background-size: auto 117px;}
@@ -296,7 +288,7 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
 .newest-recipes-list .slick-track{display: flex;}
 .newest-recipes-list .slick-slide{height: inherit !important;}
 .newest-recipes-list .item{padding: 8px;height: 100%;}
-.newest-recipes-list .item .box{background-color: #fff;height: 100%;}
+.newest-recipes-list .item .box{background-color: var(--white);height: 100%;}
 .newest-recipes-list .item .image-box{position: relative;overflow: hidden;display: block;}
 .newest-recipes-list .item .image-box img{width: 100%;aspect-ratio: 100/100;object-fit: cover;object-position: center center;transition: 0.5s;transform-origin: center center;}
 .newest-recipes-list .content{padding: 10px;}
@@ -310,7 +302,7 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
 .pasta-salad-season .sec-heading{margin-bottom: 12px;}
 
 /* Let’s Get Grilling! */
-.lets-get-grilling{padding: 40px 0;background-color: #233F3E;}
+.lets-get-grilling{padding: 40px 0;background-color:var(--green-bg);}
 .lets-get-grilling .sec-heading{margin-bottom: 12px;}
 .lets-get-grilling .sec-heading h2{color:var(--white)}
 .lets-get-grilling .sec-heading .btn-see-more{color:var(--white)}
@@ -320,28 +312,27 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
 .weeknight-casseroles .sec-heading{margin-bottom: 12px;}
 
 /* most-popular */
-.most-popular{padding: 40px 0;background-color: #233F3E;}
+.most-popular{padding: 40px 0;background-color: var(--green-bg);}
 .most-popular .sec-heading{margin-bottom: 12px;}
 .most-popular .sec-heading h2{color:var(--white)}
 .most-popular .sec-heading .btn-see-more{color:var(--white)}
 
 /* footer */
-.main-footer{
-  background-color: #EFEDEA;
-  padding: 64px 0;
-}
+.main-footer{background-color: #EFEDEA;padding: 64px 0;position: relative;}
 .main-footer .footer-logo img{width: 260px;height: auto;}
 .nav-footer{margin-top: 40px;}
 .nav-footer ul{padding-left: 0;margin: 0;display: flex;flex-wrap: wrap;justify-content: flex-end;align-items: center;gap: 24px;}
 .nav-footer ul a {color: var(--black);font-size: 14px;font-weight: 900;letter-spacing: .05em;text-transform: uppercase;text-decoration: none;}
-.nav-footer ul a:hover{color:#396B69;}
+.nav-footer ul a:hover{color:var(--green-two);}
 .social-media{margin-top: 20px;}
 .social-media ul{display: flex;flex-wrap: wrap;justify-content: flex-end;align-items: center;}
 .social-media ul li{width: 36px;text-align: center;height: 36px;line-height: 36px;}
-.social-media ul li a{color:#396B69;}
+.social-media ul li a{color:var(--green-two);}
 .copiright {text-align: center;margin-top: 50px;}
-.copiright p{font-size: 12px;}
-.copiright  a{text-decoration: underline;color:#396B69;}
+.copiright p{font-size: 12px;font-weight: 600;}
+.copiright a{text-decoration: underline;color:var(--green-two);}
+.backtotop-circle {background: var(--green-two);border-radius: 50%;display: flex;align-items: center;justify-content: center;width: 48px;height: 48px;position: absolute;top: calc(48px / -2);left: 50%;margin-left: calc(48px / -2);}
+.backtotop-circle svg {fill: var(--white);}
 
 
 
@@ -353,8 +344,8 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
   .nav-menu .menu>.menu-item>a {padding-bottom: 42px;}
   .nav-menu .menu-item.menu-item-has-children>a {padding-right: calc(16px + 6px);}
   .nav-menu .menu>.menu-item.menu-item-has-children>a {background: url('../images/icons/carat-down-large-secondary.svg') right 7px top 16px no-repeat;background-size: 12px;}
-  .nav-menu .menu>.menu-item.menu-item-has-children:hover>a {background: #EFEDEA url('../images/icons/carat-down-large-secondary.svg') no-repeat right 7px top 16px;background-size: 12px;color:#000;}
-  .nav-menu .sub-menu {background: #EFEDEA;color: #000000;left: -9999px;opacity: 0;position: absolute;width: 215px;z-index: 99;}
+  .nav-menu .menu>.menu-item.menu-item-has-children:hover>a {background: #EFEDEA url('../images/icons/carat-down-large-secondary.svg') no-repeat right 7px top 16px;background-size: 12px;color:var(--black);}
+  .nav-menu .sub-menu {background: #EFEDEA;color: var(--black);left: -9999px;opacity: 0;position: absolute;width: 215px;z-index: 99;}
   .nav-menu .menu-item:focus-within>.sub-menu, 
   .nav-menu .menu-item:hover>.sub-menu {left: auto;opacity: 1;}
   .nav-menu .menu>.menu-item.mega:focus-within>.sub-menu, 
@@ -369,9 +360,12 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .logo a img{height: 30px;}
-  .nav-menu .menu>.menu-item>a {
-    padding-bottom: 23px;
-  }
+  .nav-menu .menu>.menu-item>a {padding-bottom: 23px;}
+  .main-footer .footer-logo img {width: 210px;}
+  .nav-footer {margin-top: 0;}
+  .main-footer{padding: 40px 0;}
+  .sec-heading h2{font-size: 24px;}
+  .newest-recipes-list .content h4{font-size: 16px;}
 }
 @media only screen and (max-width: 767px){
   .display-desktop{display: none;}
@@ -381,8 +375,8 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
   .header-search {position: fixed;z-index: 9999;top: 0;left: 0;background: rgb(0, 0, 0, 0.50);height: 100%;width: 100%;align-items: center;justify-content: center;}
   body.show-search .header-search{display: flex;}
   .header_search {width: 85vw;}
-  .nav-menu{display: none;background: #EFEDEA;color: #000;margin-left: -15px;margin-right: -15px;order: 3;width: 100vw;}
-  .nav-menu .menu-item a,.nav-menu .menu>.menu-item>a{color:#000}
+  .nav-menu{display: none;background: #EFEDEA;color: var(--black);margin-left: -15px;margin-right: -15px;order: 3;width: 100vw;}
+  .nav-menu .menu-item a,.nav-menu .menu>.menu-item>a{color:var(--black)}
   .main-header .wrapper {flex-wrap: wrap;}
   .nav-menu.active{display: block; }
   .menu-item-has-children > a::after{content: '\e801';font-family: 'fontello';position: absolute;right: 16px;font-size: 24px;top: 50%;transform: translateY(-50%);}
@@ -391,6 +385,19 @@ min-width: 3rem;color:#000;font-size: 16px;line-height: 1.4;width: 100%;}
   .menu-item.active > ul.sub-menu{display: block;}
   .nav-menu .menu-item a{font-weight: normal;}
   .menu-item.active > a {color:var(--green-light-bg)}
+
+  .sec-heading h2{font-size: 20px;}
+  .newest-recipes-list .content h4{font-size: 14px;}
+  .category,.newest-recipes,.pasta-salad-season,.lets-get-grilling,.weeknight-casseroles,.most-popular{padding: 15px 0;}
+  
+  
+  .main-footer{padding: 40px 0 25px 0;}
+  .main-footer .wrapper{justify-content: center;        flex-direction: column;}
+  .main-footer .footer-logo img{width: 150px;margin: 0 auto;}
+  .nav-footer{margin-top: 20px;}
+  .nav-footer ul{justify-content: center;}
+  .social-media ul{justify-content: center;}
+  .copiright{margin-top: 20px;}
   
  
 }
